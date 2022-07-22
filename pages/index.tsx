@@ -12,8 +12,6 @@ interface props {
 }
 
 const Home: NextPage<props>= ({pokemons}) => {
-
-  // console.log(pokemons)
   return (
     <Layouts title='Listado Pokemon'>
       <Grid.Container gap={2} justify='flex-start'>
