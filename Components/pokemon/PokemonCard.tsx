@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { SmallPokemon, PokemonResponse } from '../../interfaces';
-import { Button, Grid, Card, Row, Text } from '@nextui-org/react'
 import { useRouter } from 'next/router';
+import { Grid, Card, Row, Text } from '@nextui-org/react';
 
 interface Props {
     pokemon: SmallPokemon;

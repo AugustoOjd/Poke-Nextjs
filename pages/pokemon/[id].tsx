@@ -1,5 +1,4 @@
 import { GetStaticPaths, NextPage } from 'next'
-import { useRouter } from 'next/router'
 import React from 'react'
 import Layouts from '../../Components/layouts/Layouts'
 import {GetStaticProps} from 'next';

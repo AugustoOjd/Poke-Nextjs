@@ -1,10 +1,12 @@
-import { Container, Text, Image, Grid, Card } from '@nextui-org/react'
+
 import React, { useEffect } from 'react'
 import Layouts from '../../Components/layouts/Layouts'
 import NoFavorites from '../../Components/ui/NoFavorites'
 import { useState } from 'react';
 import { locaFavorites } from '../../utils';
 import { useRouter } from 'next/router';
+import Grid from '@nextui-org/react/types/grid';
+import Card from '@nextui-org/react/types/card';
 
 const index = () => {
 
